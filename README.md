@@ -1,12 +1,14 @@
 # Mapstraction
 
-TODO: Write a gem description
+Mapstraction (http://mapstraction.com) is a programming library that provides a common interface for numerous javascript mapping libraries to enable switching from one to another as smoothly as possible. Developers can code their web applications once, and then easily switch the mapping provider based on project needs, terms and conditions, and new functionality.
+
+This gem packages it up for usage in the Rails 3.1+ asset pipeline
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile under the asset scope:
 
-    gem 'mapstraction'
+    gem 'mapstraction-rails'
 
 And then execute:
 
@@ -14,11 +16,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install mapstraction
+    $ gem install mapstraction-rails
 
 ## Usage
 
-TODO: Write usage instructions here
+In application.js require mxn.js and the provider you want (i.e.
+mxn.google.js)
 
 ## Contributing
 
