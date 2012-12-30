@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "mapstraction-rails"
   gem.require_paths = ["lib"]
   gem.version       = Mapstraction::VERSION
+
+  gem.add_dependency('railties', '>= 3.1.0')
 end
