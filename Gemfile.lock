@@ -1,0 +1,14 @@
+PATH
+  remote: .
+  specs:
+    mapstraction-rails (2.0.18)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mapstraction-rails!

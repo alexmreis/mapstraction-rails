@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Alex Reis"]
   gem.email         = ["alex@alexmreis.com"]
   gem.description   = %q{Mapstraction gemmed up for use in rails 3.1+ apps}
-  gem.summary       = %q{Mapstraction gemmed up for use in rails 3.1+ apps}
+  gem.summary       = %q{Mapstraction abstracts mapping APIs so you can easily switch from Google Maps to something else}
   gem.homepage      = "http://github.com/alexmreis/mapstraction"
 
   gem.files         = `git ls-files`.split($\)
